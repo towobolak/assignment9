@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+}
+
+@media only screen and (max-width:440px) {
+    .container1{
+        background-color: hsl(216, 12%, 8%);
+        border-radius: 20px;
+        justify-content: center;
+        width: 330px;
+        margin: auto;
+        margin-top: 50%;
+        padding: 22px;
+    }
+    .container2{
+        background-color: hsl(216, 12%, 8%);
+        border-radius: 20px;
+        text-align: center;
+        width: 330px;
+        margin: auto;
+        margin-top: 50%;
+        padding: 22px;
+    }
+    .star{
+        border: 0.1px;
+        border-radius: 50%;
+        background-color: hsl(213, 19%, 18%);
+        max-width: fit-content;
+        padding: 15px;
+        text-align: center;
+    }
+    .heading{
+       color: hsl(0, 0%, 100%);
+       font-family: "Open Sans", sans-serif;
+    }
+    .paragraph, .paragraph2{
+        color: hsl(217, 12%, 63%);
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+    }
+    .rating{
+        text-align: center;
+        color: hsl(217, 12%, 63%);
+        display: flex;
+        justify-content: center;
+        
+
+    }
+    .rate{
+        background-color: hsl(25, 97%, 53%);
+        border: 0.1px;
+        border-radius: 50%;
+        max-width: fit-content;
+        padding: 18px;
+        margin: auto;
+        font-family: "Open Sans", sans-serif;
+    }
+    .ratingc{
+        border: 0.1px;
+        border-radius: 50%;
+        max-width: fit-content;
+        padding: 18px;
+        margin: auto;
+        background-color: hsl(213, 19%, 18%);
+        font-family: "Open Sans", sans-serif;
+    }
+    .ratingc:hover{
+        background-color: hsl(25, 97%, 53%);
+        transition: 0.4s;
+    }
+    .button{
+        margin-top: 28px;
+        border: 0.1px;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        border-radius: 30px;
+        background-color: hsl(25, 97%, 53%);
+        padding: 18px 25px;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 4px;
+        width: 100%;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: deeppink;
+        transition: 0.8s;
+    }
+    .selected{
+        border: 0.1px;
+        border-radius: 30px;
+        background-color: hsl(213, 19%, 18%);
+        color: hsl(25, 97%, 53%);
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .container1{
+        background-color: hsl(216, 12%, 8%);
+        border-radius: 20px;
+        justify-content: center;
+        width: 330px;
+        margin: auto;
+        margin-top: 22.5%;
+        padding: 22px;
+    }
+    .container2{
+        background-color: hsl(216, 12%, 8%);
+        border-radius: 20px;
+        text-align: center;
+        width: 330px;
+        margin: auto;
+        margin-top: 22.5%;
+        padding: 22px;
+    }
+    .star{
+        border: 0.1px;
+        border-radius: 50%;
+        background-color: hsl(213, 19%, 18%);
+        max-width: fit-content;
+        padding: 15px;
+        text-align: center;
+    }
+    .heading{
+       color: hsl(0, 0%, 100%);
+       font-family: "Open Sans", sans-serif;
+    }
+    .paragraph, .paragraph2{
+        color: hsl(217, 12%, 63%);
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+    }
+    .rating{
+        text-align: center;
+        color: hsl(217, 12%, 63%);
+        display: flex;
+        justify-content: center;
+    }
+    .rate{
+        background-color: hsl(25, 97%, 53%);
+        border: 0.1px;
+        border-radius: 50%;
+        max-width: fit-content;
+        padding: 18px;
+        margin: auto;
+        font-family: "Open Sans", sans-serif;    }
+    .ratingc{
+        border: 0.1px;
+        border-radius: 50%;
+        max-width: fit-content;
+        padding: 18px;
+        margin: auto;
+        background-color: hsl(213, 19%, 18%);
+        font-family: "Open Sans", sans-serif;
+    }
+    .ratingc:hover{
+        background-color: hsl(25, 97%, 53%);
+        transition: 0.4s;
+    }
+    .button{
+        margin-top: 28px;
+        border: none;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        border-radius: 30px;
+        background-color: hsl(25, 97%, 53%);
+        padding: 18px 25px;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 4px;
+        width: 100%;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: deeppink;
+        transition: 0.8s;
+    }
+    .image2{
+        width: 80%;
+        margin: auto;
+    }
+    .selected{
+        border: 0.1px;
+        border-radius: 30px;
+        background-color: hsl(213, 19%, 18%);
+        color: hsl(25, 97%, 53%);
+        width: 50%;
+        margin: auto;
+    }
+}
